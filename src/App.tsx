@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Button from './components/Button/Button';
+import Tabs from './components/Tabs/Tabs';
+import Title from './components/Title/Title';
 
-function App() {
+export default function App() {
+  // const onClickHi = function(): void {
+  //   alert("hi")
+  // }
+  // const onClickBye = function(): void {
+  //   alert("Bye")
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Button clickFunction={onClickHi} text="Click"></Button>
+    <Button clickFunction={onClickBye} text="Submit"></Button> */}
+    
+    <Title text="Sign In"></Title>
+
+    <Tabs></Tabs>
+    </>
   );
 }
-
-export default App;

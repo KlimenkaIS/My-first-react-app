@@ -1,0 +1,35 @@
+.tabs-container {
+    width: 1120px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.tabs {
+    display: flex;
+    width: 496px;
+    height: 48px;
+    
+}
+
+.tabs__item {
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    padding: 0px 40px 24px 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #313037;
+}
+
+.tabs__item_border-color {
+    border-bottom: 2px solid black;
+}
+
+.tabs__item_hover:hover {
+    color: blue;
+}
+
+.tabs__item_color {
+    color: gray;
+}
