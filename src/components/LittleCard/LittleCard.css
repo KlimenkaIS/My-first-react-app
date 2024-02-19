@@ -1,0 +1,60 @@
+.little-card-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 352px;
+    height: 100%;
+    border-bottom: 1px solid #DADADA;
+}
+
+.little-card-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.little-card-content-left {
+    width: 222px;
+    height: 116px;
+}
+
+.little-card-content-left__date {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8D8E97;
+    margin: 0px 0px;
+}
+
+.little-card-content-left__title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color:#313037;
+}
+
+.little-card-content-right__image {
+    width: 96px;
+    height: 96px;
+}
+
+.little-card-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+.little-card-icons-box {
+    display: flex;
+    gap: 20px;
+}
+
+.little-card-icon {
+    height: 20px;
+    width: 20px;
+}
