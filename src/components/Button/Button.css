@@ -1,5 +1,24 @@
-.myButton {
-    padding: 30px;
-    font-size: 20px;
-    background-color: red;
+.button-add-post, .button-cancel, .button-main  {
+    width: 143px;
+    height: 56px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #2231AA;
+    cursor: pointer;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+}
+
+.button-cancel {
+    width: 125px;
+    background-color: #E8E8E8;
+    color: #313037;
+}
+
+.button-main {
+    width: 544px;
 }

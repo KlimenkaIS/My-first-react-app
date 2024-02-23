@@ -1,0 +1,32 @@
+.input-title, .input-email, .input-password {
+    width: 1118px;
+    height: 56px;
+    border: 0;
+    border-radius: 2px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.input-email, .input-password {
+    width: 544px;
+}
+
+
+.input-title:focus, .input-email:focus, .input-password:focus {
+    outline-color: rgb(202, 202, 202);
+}
+
+.input-title:active, .input-email:active, .input-password:active{
+    outline: none;
+}
+
+.input-name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8px;
+}

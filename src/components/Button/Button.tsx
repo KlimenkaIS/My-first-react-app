@@ -1,16 +1,16 @@
 import './Button.css';
 
 interface IButton {
-    text: string | number
-    clickFunction: () => void
+    children: string | number
+    buttonStyle: string
 }
 
 
 
-export default function Button({text, clickFunction}: IButton) {
+export default function Button({children, buttonStyle}: IButton) {
     return (
         <>
-        <button onClick={clickFunction} className='myButton'>{text}</button>
+        <button className={buttonStyle}>{children}</button>
         </>
     );
 }

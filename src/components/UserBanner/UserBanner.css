@@ -1,0 +1,28 @@
+.user-banner {
+    display: flex;
+    width: 193px;
+    height: 84px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2231AA;
+    color: white;
+    padding: 0 16px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.user-banner__initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #5360CD;
+}
