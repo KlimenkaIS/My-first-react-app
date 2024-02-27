@@ -12,9 +12,11 @@ interface IInput {
 
 export default function Input({inputTitle, inputPlaceholder, isDisabled, inputClass, inputType}: IInput) {
     return ( 
-    <>
-        <p className='input-name'>{inputTitle}</p>
-        <input type={inputType} placeholder={inputPlaceholder} disabled={isDisabled} className={inputClass}/>
+    <>  
+        <div className='input-wrapper'>
+            <p className='input-name'>{inputTitle}</p>
+            <input type={inputType} placeholder={inputPlaceholder} disabled={isDisabled} className={inputClass}/>
+        </div>
     </>
     );
 }

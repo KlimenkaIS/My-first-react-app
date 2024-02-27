@@ -1,4 +1,5 @@
 .input-title, .input-email, .input-password {
+    box-sizing: border-box;
     width: 1118px;
     height: 56px;
     border: 0;
@@ -12,9 +13,16 @@
 
 .input-email, .input-password {
     width: 544px;
+    margin-bottom: 40px;
 }
 
+.input-password {
+    margin-bottom: 0;
+}
 
+.input-title::placeholder, .input-email::placeholder, .input-password::placeholder {
+    padding-left: 20px;
+}
 .input-title:focus, .input-email:focus, .input-password:focus {
     outline-color: rgb(202, 202, 202);
 }

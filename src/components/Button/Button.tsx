@@ -10,7 +10,9 @@ interface IButton {
 export default function Button({children, buttonStyle}: IButton) {
     return (
         <>
-        <button className={buttonStyle}>{children}</button>
+        <div className='button-wrapper'>
+            <button className={buttonStyle}>{children}</button>
+        </div>
         </>
     );
 }

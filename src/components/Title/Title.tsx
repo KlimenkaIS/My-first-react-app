@@ -1,11 +1,9 @@
 import './Title.css';
-interface ITitle {
-    text: string
-}
-export default function Title({text}: ITitle) {
+
+export default function Title({children}: {children: string}) {
     return (
         <>
-        <span className='title'>{text}</span>
+        <h1 className='title'>{children}</h1>
         </>
     )
 }

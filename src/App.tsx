@@ -1,5 +1,5 @@
 import './App.css';
-import Textarea from './components/Textarea/Textarea';
+import PageSuccess from './components/pages/PageSuccess/PageSuccess';
 // import UserBanner from './components/UserBanner/UserBanner';
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
     
     <>
       {/* <UserBanner initials={userInitials}  name={userName}></UserBanner> */}
-      <Textarea></Textarea>
+      <PageSuccess></PageSuccess>
     </>
   );
 }

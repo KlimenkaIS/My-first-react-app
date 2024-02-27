@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+.sign-in-container {
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.sign-in-wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 624px;
+    height: 472px;
+    margin: 0 auto;
+    margin-bottom: 152px;
+    border: 1px solid #DADADA;
+}
+
+.is-have-an-account-link {
+    margin-top: 24px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8D8E97;
+
+
+}
+
+.is-have-an-account-link > a {
+    text-decoration: none;
+    font-weight: 400;
+}
