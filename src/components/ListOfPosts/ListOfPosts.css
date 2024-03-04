@@ -5,6 +5,7 @@
     grid-gap: 31px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
+    margin-top: 64px;
 }
 
 .list-of-posts-elem_big {

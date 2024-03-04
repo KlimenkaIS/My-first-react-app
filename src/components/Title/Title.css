@@ -1,9 +1,16 @@
-.title {
-    width: 186px;
-    height: 80px;
+.title, .title-with-alt-margins {
+    padding-top: 72px;
+    margin-top: 0;
+    margin-bottom: 40px; 
+
     font-family: Inter;
     font-size: 56px;
     font-weight: 700;
     line-height: 80px;
     color: #313037;
+}
+
+.title-with-alt-margins {
+    padding-top: 32px;
+    margin-bottom: 72px; 
 }

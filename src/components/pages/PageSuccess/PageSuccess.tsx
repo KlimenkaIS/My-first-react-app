@@ -7,11 +7,11 @@ import Title from '../../Title/Title';
 export default function PageSuccess() {
     return ( 
         <>
-            <Header></Header>
+            <Header isHeaderWithBanner={false}></Header>
             <div className="success-container">
                 <div className="success-wrapper">
                     <Button buttonStyle='button-back-home'>Back to home</Button>
-                    <Title>Success</Title>
+                    <Title withAltMargins = {true}>Success</Title>
                     <form className='success-form'>
                         <p className="success-title">Email confirmed.<br/>
                             Your registration is now completed</p>

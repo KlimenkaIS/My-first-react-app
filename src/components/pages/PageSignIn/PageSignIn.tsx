@@ -8,11 +8,13 @@ import './PageSignIn.css'
 export default function PageSignIn() {
     return (  
         <>
-            <Header></Header>
+            <Header isHeaderWithBanner = {false}></Header>
+
             <div className="sign-in-container">
                 <div className="sign-in-wrapper">
                     <Button buttonStyle='button-back-home'>Back to home</Button>
-                    <Title>Sign in</Title>
+                    <Title withAltMargins = {true}>Sign in</Title>
+                    
                     <form className='sign-in-form'>
                         <Input 
                         inputTitle = 'Email'
@@ -21,6 +23,7 @@ export default function PageSignIn() {
                         inputClass = 'input-email'
                         inputType = 'Email'
                         ></Input>
+
                         <Input 
                         inputTitle = 'Password'
                         inputPlaceholder = 'Your password'
@@ -28,10 +31,14 @@ export default function PageSignIn() {
                         inputClass = 'input-password'
                         inputType = 'password'
                         ></Input>
+
                         <Button buttonStyle='button-forgot-password'>Forgot password?</Button>
+
                         <Button buttonStyle='button-main'>Sign In</Button>
+                        
                         <div className="is-have-an-account-link">Don't have an account? <a href='#'>Sing Up</a></div>
                     </form>
+
                     <Footer></Footer>
                 </div>
             </div>

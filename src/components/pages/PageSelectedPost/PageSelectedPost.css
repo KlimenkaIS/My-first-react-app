@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+.selected-post-container {
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.selected-post-wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.button-back-home::after {
+    content: "| Post 14278";
+    padding-left: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8D8E97;
+}
+
+.article {
+    width: 992px;
+    margin: 0 auto;
+}
+
+.article__text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #313037;
+
+    padding-left: 35px;
+    padding-right: 37px;
+}
+
+.article__text > p {
+    margin-top: 48px;
+}
+
+.article-like-dislike-bar {
+    display: flex;
+    width: 920px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 72px;
+}
+
+.article-like-dislike-bar-left-side__item {
+    background-color: #E8E8E8;
+    padding: 16px 32px;
+    margin-right: 6px;
+}
+
+.article-like-dislike-bar-right-side {
+    background-color: #E8E8E8;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.article-like-dislike-bar-right-side > span {
+    padding-left: 10px;
+}
+
+
+

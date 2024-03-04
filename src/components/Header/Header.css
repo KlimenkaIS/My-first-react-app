@@ -18,10 +18,14 @@
     height: 84px;
 }
 
-.header-items-right > .header-item {
+.header-items-right > .header-item, .header-item-banner {
     border-left: 1px solid #5360CD;
 }
 
 .header-items-left > .header-item {
     border-right: 1px solid #5360CD;
+}
+
+.header-item-hide {
+    display: none;
 }
