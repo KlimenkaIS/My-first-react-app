@@ -11,18 +11,18 @@ export default function Header({isHeaderWithBanner}: {isHeaderWithBanner: boolea
     return (  
         <div className="header-container">
             <div className="header-items-left">
-                <div className="header-item">
+                <button className="header-item">
                     <img src={Burger} alt="Menu burger" className='header-items__burger'/>
-                </div> 
+                </button> 
             </div>
 
             <div className="header-items-right">
-                <div className="header-item">
+                <button className="header-item">
                     <img src={Search} alt="Search icon" className="header-items__search" />
-                </div>
-                <div className={isHeaderWithBanner ? "header-item-hide" : "header-item"}>
+                </button>
+                <button className={isHeaderWithBanner ? "header-item-hide" : "header-item"}>
                     <img src={User} alt="User icon" className="header-items__user" />
-                </div>
+                </button>
                 <div className={isHeaderWithBanner ? "header-item-banner" : "header-item-hide"}>
                     <UserBanner initials={userInitials}  name={userName}></UserBanner>
                 </div>

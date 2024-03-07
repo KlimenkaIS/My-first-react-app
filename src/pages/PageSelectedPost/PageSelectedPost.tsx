@@ -1,13 +1,13 @@
 import './PageSelectedPost.css'
-import Header from '../../Header/Header';
-import Button from '../../Button/Button';
-import Title from '../../Title/Title';
-import Astronaut from '../../../assets/Astronaut.svg'
-import Like from '../../../assets/Icon-Thumbs-Up.svg'
-import Dislike from '../../../assets/Icon-Thumbs-Down.svg'
-import Bookmark from '../../../assets/Bookmark.svg'
-import Footer from '../../Footer/Footer';
-import DownNavigationBar from '../../DownNavigationBar/DownNavigationBar';
+import Header from '../../components/Header/Header';
+import Button from '../../components/Button/Button';
+import Title from '../../components/Title/Title';
+import Astronaut from '../../assets/Astronaut.svg'
+import Like from '../../assets/Icon-Thumbs-Up.svg'
+import Dislike from '../../assets/Icon-Thumbs-Down.svg'
+import Bookmark from '../../assets/Bookmark.svg'
+import Footer from '../../components/Footer/Footer';
+import DownNavigationBar from '../../components/DownNavigationBar/DownNavigationBar';
 
 
 export default function PageSelectedPost() {

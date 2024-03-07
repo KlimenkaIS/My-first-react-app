@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+.page-reg-confirm-container {
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.page-reg-confirm-wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.page-reg-confirm-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 624px;
+    height: 232px;
+    margin: 0 auto;
+    margin-bottom: 368px;
+    border: 1px solid #DADADA;
+}
+
+.page-reg-confirm-title {
+    align-self: start;
+    padding-left: 40px;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

@@ -26,7 +26,7 @@ export default function DownNavigationBar({withPagination}: {withPagination: boo
 
                 <div className="dawn-navigation-bar-side-wrapper">
                     <button className="dawn-navigation-bar-side__title" style={{alignSelf: "end"}}>Next</button>
-                    <button className={withPagination ? "disabled" :'dawn-navigation-bar-side__subtitle'} style={{textAlign: 'right'}}>{posts[6].title}</button>
+                    <button className={withPagination ? "disabled" :'dawn-navigation-bar-side__subtitle'} style={{textAlign: 'right', alignSelf: 'flex-end'}}>{posts[6].title}</button>
                 </div>
                 <button className="dawn-navigation-bar-side__vector"><img src={VectorNext} alt=""/></button>
 

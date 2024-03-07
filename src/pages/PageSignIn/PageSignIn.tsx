@@ -1,11 +1,16 @@
-import Button from '../../Button/Button';
-import Footer from '../../Footer/Footer';
-import Header from '../../Header/Header';
-import Input from '../../Input/Input';
-import Title from '../../Title/Title';
+import { useState } from 'react';
+import Button from '../../components/Button/Button';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Input from '../../components/Input/Input';
+import Title from '../../components/Title/Title';
 import './PageSignIn.css'
 
 export default function PageSignIn() {
+    const [inputValueEmail, setInputValueEmail] = useState('')
+    const [inputValuePassword, setInputValuePassword] = useState('')
+
+ 
     return (  
         <>
             <Header isHeaderWithBanner = {false}></Header>
@@ -20,16 +25,20 @@ export default function PageSignIn() {
                         inputTitle = 'Email'
                         inputPlaceholder = 'Your email'
                         isDisabled = {false}
-                        inputClass = 'input-email'
-                        inputType = 'Email'
+                        inputClass = 'input-main'
+                        inputType = 'email'
+                        inputValue = {inputValueEmail}
+                        setInputValue = {e => setInputValueEmail(e.target.value)}
                         ></Input>
 
                         <Input 
                         inputTitle = 'Password'
                         inputPlaceholder = 'Your password'
                         isDisabled = {false}
-                        inputClass = 'input-password'
+                        inputClass = 'input-main_without-margin'
                         inputType = 'password'
+                        inputValue = {inputValuePassword}
+                        setInputValue = {e => setInputValuePassword(e.target.value)}
                         ></Input>
 
                         <Button buttonStyle='button-forgot-password'>Forgot password?</Button>

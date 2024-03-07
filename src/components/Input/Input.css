@@ -1,9 +1,22 @@
-.input-title, .input-email, .input-password {
+.input-name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: #313037;
+}
+
+.input-title, 
+.input-main, 
+.input-main_without-margin {
     box-sizing: border-box;
     width: 1118px;
     height: 56px;
     border: 0;
     border-radius: 2px;
+    padding-left: 20px;
 
     font-family: Inter;
     font-size: 16px;
@@ -11,30 +24,24 @@
     line-height: 20px;
 }
 
-.input-email, .input-password {
+.input-main, 
+.input-main_without-margin {
     width: 544px;
     margin-bottom: 40px;
 }
 
-.input-password {
+.input-main_without-margin {
     margin-bottom: 0;
 }
 
-.input-title::placeholder, .input-email::placeholder, .input-password::placeholder {
-    padding-left: 20px;
-}
-.input-title:focus, .input-email:focus, .input-password:focus {
+.input-title:focus, 
+.input-main:focus, 
+.input-main_without-margin:focus {
     outline-color: rgb(202, 202, 202);
 }
 
-.input-title:active, .input-email:active, .input-password:active{
+.input-title:active, 
+.input-main:active, 
+.input-main_without-margin:active {
     outline: none;
-}
-
-.input-name {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 8px;
 }

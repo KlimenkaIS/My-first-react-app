@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.page-title-container {
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.page-title-wrapper {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.page-title-main-button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #DADADA;
+    background-color: #F3F3F3;
+    width: 540px;
+    padding: 40px;
+    margin-bottom: 515px;
+    cursor: pointer;
+
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    color: #254050;
+}
+

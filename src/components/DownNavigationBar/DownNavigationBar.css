@@ -12,16 +12,16 @@
 }
 
 .dawn-navigation-bar-side {
+    
     display: flex;
     align-items: center;
     gap: 24px;
 }
 
-
-
 .dawn-navigation-bar-side-wrapper {
     display: flex;
     flex-direction: column;
+    
 }
 
 .dawn-navigation-bar-side__title {
@@ -29,6 +29,8 @@
     color: #313037;
     background-color: #F3F3F3;
     cursor: pointer;
+    padding: 0;
+
 
     font-family: Inter;
     font-size: 16px;
@@ -37,10 +39,12 @@
 }
 
 .dawn-navigation-bar-side__subtitle {
+    width: 80%;
     border: 0;
     background-color: #F3F3F3;
     cursor: pointer;
-    
+    padding: 0;
+
     font-family: Inter;
     font-size: 16px;
     line-height: 24px;

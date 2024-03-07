@@ -1,10 +1,10 @@
 import './PageAllPosts.css'
-import Header from "../../Header/Header";
-import Title from "../../Title/Title";
-import Tabs from '../../Tabs/Tabs';
-import ListOfPosts from '../../ListOfPosts/ListOfPosts';
-import DownNavigationBar from '../../DownNavigationBar/DownNavigationBar';
-import Footer from '../../Footer/Footer';
+import Header from "../../components/Header/Header";
+import Title from "../../components/Title/Title";
+import Tabs from '../../components/Tabs/Tabs';
+import ListOfPosts from '../../components/ListOfPosts/ListOfPosts';
+import DownNavigationBar from '../../components/DownNavigationBar/DownNavigationBar';
+import Footer from '../../components/Footer/Footer';
 
 export default function PageAllPosts() {
     return ( 

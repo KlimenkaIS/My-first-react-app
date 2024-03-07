@@ -1,14 +1,12 @@
 import './App.css';
-import PageAllPosts from './components/pages/PageAllPosts/PageAllPosts';
+import PageRegistrationConfirmation from './pages/PageRegistrationConfirmation/PageRegistrationConfirmation';
+
 
 
 export default function App() {
-
-
   return (
-    
     <>
-      <PageAllPosts></PageAllPosts>
+      <PageRegistrationConfirmation></PageRegistrationConfirmation>
     </>
   );
 }

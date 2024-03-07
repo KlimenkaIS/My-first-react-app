@@ -16,6 +16,13 @@
     align-items: center;
     width: 84px;
     height: 84px;
+    background-color: #2231AA;
+    border: 0;
+    cursor: pointer;
+}
+
+.header-item-banner {
+    cursor: pointer;
 }
 
 .header-items-right > .header-item, .header-item-banner {
